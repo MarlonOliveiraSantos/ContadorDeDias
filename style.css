@@ -1,0 +1,33 @@
+body {
+    font: normal 15pt Arial;
+    background-color: rgba(157, 250, 7, 0.411)
+}
+
+section{    
+    margin: auto;
+    text-align: center;
+    background-color: hsl(93, 99%, 32%);
+    width: 50%;
+}
+
+#interface{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+
+.input{
+    width: 300px; 
+    margin: 10px;
+}
+
+#txtb {
+    background-color: hsl(214, 98%, 49%);
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: hidden;
+    padding: 10px;
+    margin: 10px;
+}
